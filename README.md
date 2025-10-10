@@ -1,5 +1,7 @@
 # CRISP: A Clinical-Grade Universal Foundation Model for Intraoperative Pathology
 
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b)](https://arxiv.org/abs/2510.04861) [![Cite](https://img.shields.io/badge/Cite-Our%20Work-blue)](#reference)
+
 **CRISP** (Clinical-grade Robust Intraoperative Support for Pathology) is a universal foundation model designed for intraoperative frozen section analysis. Developed on over 100,000 frozen sections from eight medical centers, CRISP provides robust and generalizable diagnostic support across a wide range of tumor types, anatomical sites, and clinical scenarios.
 
 ## 📖 Overview
@@ -16,8 +18,8 @@ In a prospective cohort of over 2,000 patients, CRISP informed surgical decision
 ## 🪧 Checkpoint
 ### TODO
 - [x] *Release manuscript*
-- [x] *Release source code of downstream tasks*
-- [x] *Release model weights of CRISP*
+- [ ] *Release source code of downstream tasks*
+- [ ] *Release model weights of CRISP*
 
 ## 🏥 Key Features
 
@@ -77,5 +79,19 @@ In a prospective cohort of over 2,000 patients, CRISP informed surgical decision
     - Email: lrg760904@163.com  
     - Institution: Jiangmen Central Hospital
 
-If you have any questions, feel free to contact us.
+[📧](mailto:fzhouaf@connect.ust.hk) **If you have any questions, feel free to contact us.**
 ---
+
+## <a id="reference"></a>🤝 Reference
+**If you find our work useful in your research, please consider citing our paper.**
+
+Zhao Z, Zhou F, Li R, et al. A Clinical-grade Universal Foundation Model for Intraoperative Pathology[J]. arXiv preprint arXiv:2510.04861, 2025.
+
+```
+@article{zhao2025clinical,
+  title={A Clinical-grade Universal Foundation Model for Intraoperative Pathology},
+  author={Zhao, Zihan and Zhou, Fengtao and Li, Ronggang and Chu, Bing and Zhang, Xinke and Zheng, Xueyi and Zheng, Ke and Wen, Xiaobo and Ma, Jiabo and Wang, Yihui and others},
+  journal={arXiv preprint arXiv:2510.04861},
+  year={2025}
+}
+```
